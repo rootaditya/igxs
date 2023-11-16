@@ -1,3 +1,6 @@
+import { CiInstagram, CiYoutube } from 'react-icons/ci';
+import { FaBehance } from 'react-icons/fa';
+
 export const Name = 'Aditya';
 export const FullName = 'Aditya Kumar';
 export const SiteName = 'Incredible Graphix Studio';
@@ -19,17 +22,17 @@ export const NavList = [
 export const SNSLinks = [
   {
     id: 0,
-    name: 'Instagram',
+    name: <CiInstagram />,
     url: 'https://www.instagram.com/incrediblegraphixstudio/',
   },
   {
     id: 1,
-    name: 'Youtube',
+    name: <CiYoutube />,
     url: 'https://www.youtube.com/@incrediblegraphixstudio',
   },
   {
     id: 2,
-    name: 'Behance',
+    name: <FaBehance />,
     url: 'https://www.behance.net/igraphixstudio',
   },
 ];
