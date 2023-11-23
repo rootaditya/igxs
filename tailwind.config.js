@@ -15,7 +15,7 @@ module.exports = {
       },
       keyframes: {
         ehe: {
-          '0%': { transform: 'translateX(100%)' },
+          '0%': { transform: 'translateX(110%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
       },
