@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="" id="contact">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 mt-10">
         <div className="text-center">
-          <h3 className="text-6xl">
+          <h3 className="text-4xl xl:text-6xl">
             Have an Awesome Project <br />
             Idea? <span className="text-[#ff0000]">Let&apos;s Discuss</span>
           </h3>
@@ -18,10 +18,16 @@ export default function Footer() {
 
         <a
           href="mailto:contactincrediblegraphixstudio@gmail.com"
-          className="mx-auto mt-6 max-w-md text-center text-lg tracking-wide flex items-center gap-2"
+          className="hidden xl:block mx-auto mt-6 max-w-md text-center text-lg tracking-wide flex items-center gap-2"
         >
           <Image src={EmailIcon} alt="email icon" />{' '}
           contactincrediblegraphixstudio@gmail.com
+        </a>
+        <a
+          href="mailto:contactincrediblegraphixstudio@gmail.com"
+          className="block xl:hidden mx-auto mt-6 max-w-md justify-center text-center text-lg tracking-wide flex items-center gap-2"
+        >
+          <Image src={EmailIcon} alt="email icon" /> Click to Mail
         </a>
 
         <div>
@@ -34,16 +40,16 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div className="flex justify-around mt-10">
-          <div className="flex items-center gap-2 text-xl">
+        <div className="grid grid-cols-1 xl:grid-cols-3 justify-center mt-10">
+          <div className="flex mx-auto items-center gap-2 text-xl">
             <GiJusticeStar />
             4.9/5 Average Ratings
           </div>
-          <div className="flex items-center gap-2 text-xl">
+          <div className="flex mx-auto items-center gap-2 text-xl">
             <GrCertificate />
             Quality Design
           </div>
-          <div className="flex items-center gap-2 text-xl">
+          <div className="flex mx-auto items-center gap-2 text-xl">
             <IoShieldCheckmarkSharp />
             Certified UI/UX Designer
           </div>
