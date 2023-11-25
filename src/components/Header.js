@@ -20,13 +20,13 @@ export default function Header() {
           </div>
 
           <div className="md:flex md:items-center md:gap-12 z-50">
-            <nav aria-label="Global" className="hidden md:block lg:pr-8">
+            <nav aria-label="Global" className="lg:pr-8">
               <ul className="flex items-center gap-6 text-sm">
                 {NavList.map((item, id) => {
                   return (
                     <li key={id}>
                       <a
-                        className="transition text-xl font-semibold hover:text-gray-500/75"
+                        className="transition xl:text-xl font-semibold hover:text-gray-500/75"
                         href={item.url}
                       >
                         {item.title}
