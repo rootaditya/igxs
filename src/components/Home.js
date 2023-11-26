@@ -20,19 +20,19 @@ export default function Home() {
         />
         Hello!
       </p>
-      <h1 className="text-9xl text-center">
+      <h1 className="text-5xl xl:text-9xl text-center">
         I&apos;m <span className="text-[#ff0000]">Aditya</span>,
       </h1>
-      <h2 className="text-9xl w-fit mx-auto text-center relative">
+      <h2 className="text-5xl xl:text-9xl w-fit mx-auto mt-5 text-center relative">
         <Image
           src={AssertionImage}
           alt="Assertion"
-          className="absolute -bottom-10 -left-4 rotate-180 w-20"
+          className="absolute bottom-2 left-5 xl:-bottom-10 xl:-left-4 rotate-180 w-12 xl:w-20"
         />
         Graphic & UI/UX Designer
       </h2>
       <div className="relative">
-        <div className="mt-20 w-11/12 mx-auto grid grid-cols-2 relative">
+        <div className="mt-20 w-11/12 mx-auto grid xl:grid-cols-2 relative">
           <div className="z-40">
             <Image src={QuoteIcon} alt="Quote Icon" className="w-20" />
             <p className="bg-[#ffffff7a] text-2xl leading-loose mt-5 p-5">
