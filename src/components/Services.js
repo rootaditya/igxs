@@ -23,7 +23,21 @@ export default function Services() {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         className="w-[80%] mt-5 mb-10 !pb-14"
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={1}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
