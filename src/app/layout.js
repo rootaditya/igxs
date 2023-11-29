@@ -7,7 +7,8 @@ const unrbanist = Urbanist({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'IGXS - Your X-desires destiny',
-  description: 'fullfill your x-desires here',
+  description:
+    'fullfill your x-desires here watch all porn video for free without any interuption or ads',
 };
 
 export default function RootLayout({ children }) {
