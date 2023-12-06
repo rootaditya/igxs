@@ -18,14 +18,14 @@ export default function Footer() {
 
         <a
           href="mailto:contactincrediblegraphixstudio@gmail.com"
-          className="hidden xl:block mx-auto mt-6 max-w-md text-center text-lg tracking-wide flex items-center gap-2"
+          className="hidden xl:flex mx-auto mt-6 max-w-md text-center text-lg tracking-wide items-center gap-2"
         >
           <Image src={EmailIcon} alt="email icon" />{' '}
           contactincrediblegraphixstudio@gmail.com
         </a>
         <a
           href="mailto:contactincrediblegraphixstudio@gmail.com"
-          className="block xl:hidden mx-auto mt-6 max-w-md justify-center text-center text-lg tracking-wide flex items-center gap-2"
+          className="flex xl:hidden mx-auto mt-6 max-w-md justify-center text-center text-lg tracking-wide  items-center gap-2"
         >
           <Image src={EmailIcon} alt="email icon" /> Click to Mail
         </a>
