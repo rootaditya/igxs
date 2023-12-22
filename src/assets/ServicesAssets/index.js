@@ -6,7 +6,7 @@ import PosterDesignCardImg from './PosterDesign.svg';
 import BrandCardImg from './Brand.svg';
 import PrintCardImg from './Print.svg';
 import Print2CardImg from './Print2.svg';
-import Print3CardImg from './Print3.svg';
+import Print3CardImg from './print3.svg';
 import StanddeeCardImg from './Standee.svg';
 import CarCardImg from './Car.svg';
 
